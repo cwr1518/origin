@@ -9,7 +9,7 @@ right=[]
 edge=[]
 l_num=0
 r_num=0
-for i in range(20):
+for i in range(10):
     time_update(left,right,edge)
     if(random.randint(1,4)>2):   #决定了左边点到来的频率，以及生存时间
         l_num=l_num+1
